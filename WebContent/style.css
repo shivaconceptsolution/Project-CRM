@@ -1,0 +1,47 @@
+
+*
+{
+	margin:0px;
+}
+
+header
+{
+	height:100px;
+	background-color: blue;
+}
+header ul li 
+{
+	display:inline-block;
+	margin-top:10px;
+	background-color: black;
+	width:150px;
+	height:20px;
+	text-align:center;
+	border-radius:10px;
+	padding:5px;
+	border:2px dashed white;
+}
+header ul li:hover
+{
+	background-color: orange;
+}
+header ul li a,section a
+{
+	color:white;
+	margin-left:10px;
+	font-size:18px;
+	font-weight:bolder;
+	text-decoration: none;
+}
+section
+{
+	height:500px;
+	background-color:gray;
+}
+
+footer
+{
+	height:20px;
+	background-color: blue;
+	color:white;
+}
